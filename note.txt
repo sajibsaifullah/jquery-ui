@@ -1,0 +1,9 @@
+==> file connect
+        - css
+        - js
+
+==> mark up
+
+==> style
+
+==> activation

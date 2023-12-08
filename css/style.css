@@ -1,0 +1,125 @@
+/* Example-01 */
+#draggable-1 {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-color: purple;
+}
+
+/* Example-02 */
+.cont-2 {
+  overflow: hidden;
+}
+#draggable-2 {
+  width: 100px;
+  height: 100px;
+  padding: 0.5em;
+  float: left;
+  margin: 10px 10px 10px 0;
+}
+#droppable-2 {
+  margin: 10px;
+  padding: 0.5em;
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+/* Example-03 */
+#sortable-3 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 40%;
+}
+#sortable-3 li {
+  margin: 0 3px 3px 3px;
+  padding: 0.4em;
+  padding-left: 1.5em;
+  font-size: 1.4em;
+  height: 50px;
+}
+#sortable-3 li span {
+  position: absolute;
+  margin-left: -1.3em;
+}
+.c-ui-icon {
+  margin-top: 9px;
+}
+
+/* Example-05 */
+.tab-title {
+  display: flex;
+  justify-content: center;
+}
+
+/* Example-08 */
+#ex-8 label {
+  display: inline-block;
+  width: 5em;
+}
+
+/* Example-09 */
+#ex-9 .red {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.purple {
+  margin-left: 100px;
+  width: 300px !important;
+  height: 300px !important;
+  background-color: purple !important;
+}
+
+/* Example-10 */
+.toggler {
+  width: 500px;
+  height: 220px;
+}
+#button {
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+#effect {
+  width: 240px;
+  height: 200px;
+  padding: 0.4em;
+  position: relative;
+}
+#effect h3 {
+  margin: 0;
+  padding: 0.4em;
+  text-align: center;
+}
+.c-drop {
+  padding: 0 10px;
+  height: 40px;
+}
+
+/* Example-10 */
+.toggler-11 {
+  width: 500px;
+  height: 220px;
+}
+#button-11 {
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+#effect-11 {
+  width: 240px;
+  height: 200px;
+  padding: 0.4em;
+  position: relative;
+}
+#effect-11 h3 {
+  margin: 0;
+  padding: 0.4em;
+  text-align: center;
+}
+.c-drop-11 {
+  padding: 0 10px;
+  height: 40px;
+}

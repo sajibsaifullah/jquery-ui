@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta data -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JQuery UI</title>
+    <!-- css link -->
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body class="container">
+    <h1 class="text-center text-primary my-3 text-decoration-underline">
+      JQuery UI Practice
+    </h1>
+
+    <!-- Example-01 -->
+    <div id="ex-1">
+      <h2 class="mb-3">Example-01: Draggable</h2>
+      <div id="draggable-1" class="">
+        <p>Drag me around</p>
+      </div>
+      <hr />
+    </div>
+
+    <!-- Example-02 -->
+    <div id="ex-2">
+      <h2 class="mb-3">Example-02: Droppable</h2>
+      <div class="cont-2">
+        <div id="draggable-2" class="ui-widget-content">
+          <p>Drag me to my target</p>
+        </div>
+        <div id="droppable-2" class="ui-widget-header">
+          <p>Drop here</p>
+        </div>
+      </div>
+      <hr />
+    </div>
+
+    <!-- Example-03 -->
+    <div id="ex-3">
+      <h2 class="mb-3">Example-03: Sortable</h2>
+      <ul id="sortable-3">
+        <li class="ui-state-default">
+          <span class="ui-icon ui-icon-arrowthick-2-n-s c-ui-icon"></span>Item 1
+        </li>
+        <li class="ui-state-default">
+          <span class="ui-icon ui-icon-arrowthick-2-n-s c-ui-icon"></span>Item 2
+        </li>
+        <li class="ui-state-default">
+          <span class="ui-icon ui-icon-arrowthick-2-n-s c-ui-icon"></span>Item 3
+        </li>
+      </ul>
+      <hr />
+    </div>
+
+    <!-- Example-04 -->
+    <div id="ex-4">
+      <h2 class="mb-3">Example-04: Accordion</h2>
+      <div id="accordion-4">
+        <h3>Section 1</h3>
+        <div>
+          <p>
+            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam.
+            Integer ut neque. Vivamus nisi metus, molestie vel, gravida in,
+            condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi.
+            Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit
+            eu ante scelerisque vulputate.
+          </p>
+        </div>
+        <h3>Section 2</h3>
+        <div>
+          <p>
+            Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque
+            lobortis. Phasellus pellentesque purus in massa. Aenean in pede.
+            Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed
+            commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu
+            iaculis leo purus venenatis dui.
+          </p>
+          <ul>
+            <li>List item one</li>
+            <li>List item two</li>
+            <li>List item three</li>
+          </ul>
+        </div>
+        <h3>Section 3</h3>
+        <div>
+          <p>
+            Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+            et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis
+            in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean
+            lacinia mauris vel est.
+          </p>
+          <p>
+            Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat
+            lectus. Class aptent taciti sociosqu ad litora torquent per conubia
+            nostra, per inceptos himenaeos.
+          </p>
+        </div>
+      </div>
+      <hr />
+    </div>
+
+    <!-- Example-05 -->
+    <div id="ex-5">
+      <h2 class="mb-3">Example-05: AutoComplete</h2>
+      <div class="mb-3">
+        <label for="subject" class="form-label">Subject</label>
+        <input
+          type="text"
+          class="form-control w-50"
+          id="subject"
+          placeholder="Type Your Subject"
+        />
+        <input type="submit" value="Submit" class="btn btn-primary mt-2" />
+      </div>
+      <hr />
+    </div>
+
+    <!-- Example-06 -->
+    <div id="ex-6">
+      <h2 class="mb-3">Example-06: Datepicker</h2>
+      <p>Date: <input type="text" id="datepicker" /></p>
+      <hr />
+    </div>
+
+    <!-- Example-07 -->
+    <div id="ex-7">
+      <h2 class="mb-3">Example-07: Tabs</h2>
+      <div id="tabs">
+        <ul class="tab-title">
+          <li><a href="#tabs-1">Bangladesh</a></li>
+          <li><a href="#tabs-2">India</a></li>
+          <li><a href="#tabs-3">Bhutan</a></li>
+        </ul>
+        <div id="tabs-1">
+          <p>
+            Bangladesh, to the east of India on the Bay of Bengal, is a South
+            Asian country marked by lush greenery and many waterways. Its Padma
+            (Ganges), Meghna and Jamuna rivers create fertile plains, and travel
+            by boat is common. On the southern coast, the Sundarbans, an
+            enormous mangrove forest shared with Eastern India, is home to the
+            royal Bengal tiger.
+          </p>
+          <p><b>Capital:</b> Dhaka</p>
+          <p><b>Population:</b> 169.4 million (2021)</p>
+          <p><b>Currency:</b> Bangladeshi Taka (BDT)</p>
+        </div>
+        <div id="tabs-2">
+          <p>
+            India, officially the Republic of India, is a country in South Asia.
+            It is the seventh-largest country by area; the most populous country
+            as of June 2023; and from the time of its independence in 1947, the
+            world's most populous democracy.
+          </p>
+          <p><b>Capital:</b> New Delhi</p>
+          <p><b>Population:</b> 1.408 billion (2021)</p>
+          <p><b>Currency:</b> Indian rupee (₹) (INR)</p>
+        </div>
+        <div id="tabs-3">
+          <p>
+            Bhutan, a Buddhist kingdom on the Himalayas’ eastern edge, is known
+            for its monasteries, fortresses (or dzongs) and dramatic landscapes
+            that range from subtropical plains to steep mountains and valleys.
+            In the High Himalayas, peaks such as 7,326m Jomolhari are popular
+            trekking destinations. Paro Taktsang monastery (also known as
+            Tiger’s Nest) clings to cliffs above the forested Paro Valley.
+          </p>
+          <p><b>Capital:</b> Thimphu</p>
+          <p><b>Population:</b> 777,486 (2021)</p>
+          <p><b>Currency:</b> Bhutanese Ngultrum, Indian Rupee</p>
+        </div>
+      </div>
+      <hr />
+    </div>
+
+    <!-- Example-08 -->
+    <div id="ex-8">
+      <h2 class="mb-3">Example-08: Tooltip</h2>
+      <p>
+        <label for="age">Your age:</label
+        ><input
+          id="age"
+          title="We ask for your age only for statistical purposes."
+        />
+      </p>
+      <p>Hover the field to see the tooltip.</p>
+      <hr />
+    </div>
+
+    <!-- Example-09 -->
+    <div id="ex-9">
+      <h2 class="mb-3">Example-09: AddClass</h2>
+      <button class="btn btn-info mb-2">Click</button>
+      <div class="red"></div>
+      <hr />
+    </div>
+
+    <!-- Example-10 -->
+    <div id="ex-10">
+      <h2 class="mb-3">Example-10: Hide</h2>
+      <div class="toggler">
+        <div id="effect" class="ui-widget-content ui-corner-all">
+          <h3 class="ui-widget-header ui-corner-all">Hide</h3>
+          <p>
+            Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed
+            pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae,
+            mi.
+          </p>
+        </div>
+      </div>
+
+      <div class="d-flex align-items-center gap-3">
+        <select name="effects" id="effectTypes" class="c-drop">
+          <option value="blind">Blind</option>
+          <option value="bounce">Bounce</option>
+          <option value="clip">Clip</option>
+          <option value="drop">Drop</option>
+          <option value="explode">Explode</option>
+          <option value="fade">Fade</option>
+          <option value="fold">Fold</option>
+          <option value="highlight">Highlight</option>
+          <option value="puff">Puff</option>
+          <option value="pulsate">Pulsate</option>
+          <option value="scale">Scale</option>
+          <option value="shake">Shake</option>
+          <option value="size">Size</option>
+          <option value="slide">Slide</option>
+        </select>
+
+        <button id="button" class="btn btn-primary ui-corner-all">
+          Run Effect
+        </button>
+      </div>
+      <hr />
+    </div>
+
+    <!-- Example-11 -->
+    <div id="ex-11">
+      <h2 class="mb-3">Example-11: Show</h2>
+      <div class="toggler-11">
+        <div id="effect-11" class="ui-widget-content ui-corner-all">
+          <h3 class="ui-widget-header ui-corner-all">Show</h3>
+          <p>
+            Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed
+            pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae,
+            mi.
+          </p>
+        </div>
+      </div>
+
+      <div class="d-flex align-items-center gap-3">
+        <select name="effects" id="effectTypes-11" class="c-drop-11">
+          <option value="blind">Blind</option>
+          <option value="bounce">Bounce</option>
+          <option value="clip">Clip</option>
+          <option value="drop">Drop</option>
+          <option value="explode">Explode</option>
+          <option value="fade">Fade</option>
+          <option value="fold">Fold</option>
+          <option value="highlight">Highlight</option>
+          <option value="puff">Puff</option>
+          <option value="pulsate">Pulsate</option>
+          <option value="scale">Scale</option>
+          <option value="shake">Shake</option>
+          <option value="size">Size</option>
+          <option value="slide">Slide</option>
+        </select>
+
+        <button id="button-11" class="btn btn-info ui-state-default ui-corner-all">
+          Run Effect
+        </button>
+      </div>
+      <hr />
+    </div>
+
+    <!-- js script -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
